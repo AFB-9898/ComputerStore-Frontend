@@ -1,0 +1,28 @@
+/* Reset básico sin interferir con Tailwind */
+:root {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Asegura que el body use el fondo global de Tailwind */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f3f4f6; /* Equivalente a bg-gray-100 */
+  color: #5e0101;
+}
+
+/* Enlaces simples */
+a {
+  font-weight: 500;
+  color: #1f3b5b; /* azul metálico */
+  text-decoration: none;
+}
+a:hover {
+  color: #b71c1c; /* rojo metálico */
+}
